@@ -1,8 +1,8 @@
 # React-page-transitions
 React page animations and transitions
-that is available for free to use
+that are available for free to use
 ```
-npm i &&  npm start
+npm i && npm start
 ```
 [open localhost:3000](http://localhost:3000)
 
