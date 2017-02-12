@@ -6,4 +6,4 @@ npm i &&  npm start
 ```
 [open localhost:3000](http://localhost:3000)
 
-![](https://github.com/oky1/React-page-transitions/Transitions.gif)
+![](https://github.com/oky1/React-page-transitions/blob/master/Transitions.gif)
