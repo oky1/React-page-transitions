@@ -1,0 +1,239 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,700|Satisfy);
+html,
+body {
+    height: 100%;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+    
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #fff;
+    background: #333;
+    overflow: hidden;
+}
+
+.perspective {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    perspective: 1200px;
+}
+
+.page {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -ms-transform-style: none ; /* Ie 10-11 Transform 3d problems */
+    -ms-transform: none ;  /*Ie 10-11 Transform 3d problems*/
+}
+
+/* Text Styles, Colors, Backgrounds */
+    
+ .page>h1 {
+     position: absolute;
+     display: block;
+     font-weight: 400;
+     font-size: 4.4em;
+     line-height: 1;
+     letter-spacing: 6px;
+     margin: 0;
+     top: 100px;
+     width: 100%;
+     text-align: center;
+     text-transform: uppercase;
+     word-spacing: -0.3em;
+     text-shadow: 1px 1px 2px rgba(255,255,255, 0.3), -2px -2px 6px rgba(0,0,0, 1);
+     opacity:0.6;
+ }
+ 
+
+ .page>h1>strong {
+    font-weight: 700;
+    text-shadow: -1px -1px 1px rgba(0,0,0, 0.7), 1px 1px 2px rgba(255,255,255, 0.3);
+    color: rgba(0, 0, 0, 1);
+    opacity:0.5;
+ }
+ 
+ .index {
+     background: grey;
+ }
+ 
+.page-1 {
+       background: #3f51b5;
+ }
+ 
+ .page-2 {
+     background: #ff5c57;
+ }
+ /* Page nav */
+
+ 
+ .page-nav>li {
+     float: left;
+     text-shadow: 1px 1px 2px rgba(0,0,0, 0.9);
+     padding: 10px 25px;
+ }
+ 
+ .page-nav>li>a {
+     color: #fff;
+     text-shadow: 1px 1px 2px rgba(0,0,0, 0.9);
+     opacity: 1;
+ }
+ /* Component List */
+ 
+ .component-List {
+     text-align: center;
+     float: none;
+     position: relative;
+     margin-top: 225px;
+ }
+ 
+ .component-List>input {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline:none;
+}
+.scroll {
+    max-height: 60vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+ .scroll>ul {
+     display: block;
+     margin: 0 auto;
+     position: relative;
+     padding: 35px 0 10px 100px;
+     -webkit-column-count: 5; 
+     -moz-column-count: 5; 
+     column-count: 5;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .scroll{ margin-right: -17px;}
+}
+ 
+ 
+@-moz-document url-prefix() { 
+ .scroll{
+    margin-right: -17px;
+ }
+}
+
+.scroll::-webkit-scrollbar {
+      display: none;
+ }
+ 
+ .scroll>ul>li {
+     text-align: left;
+     cursor: pointer;
+     padding: 10px 5px 0;
+     width: 250px;
+ }
+ 
+ .scroll>ul>li>a {
+    color: #fff;
+    opacity:0.8;
+    
+ }
+  .scroll>ul>li>a:hover {
+     opacity:1;
+ }
+ 
+ @media screen and (max-width: 63.4375em) {
+    .scroll>ul {
+        -webkit-column-count: 3; 
+        -moz-column-count: 3; 
+        column-count: 3;
+    }
+
+ }
+ @media screen and (max-width: 47.4375em) {
+     .page h1 {
+         font-size: 3em;
+     }
+     .component-List {
+         margin-top: 210px
+     }
+ }
+ 
+ @media screen and (max-width: 37.4375em) {
+     .page h1 {
+         font-size: 2em;
+     }
+     .scroll>ul {
+         padding-left: 100px;
+     }
+    .scroll>ul {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+    }
+ }
+ 
+ @media screen and (max-width: 30.4375em) {
+     .scroll>ul {
+         padding-left: 50px;
+     }
+ }
+ 
+ @media screen and (max-width: 25.4375em) {
+     .page h1 {
+        padding-top: 15px;
+         font-size: 1em;
+     }
+     
+     .scroll>ul {
+         padding-left: 10px;
+     }
+ }

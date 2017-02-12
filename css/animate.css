@@ -1,0 +1,1224 @@
+/* 0 / Move to left/ from right */
+.moveToLeft-leave {
+	-webkit-animation: moveToLeft .6s ease both;
+	animation: moveToLeft .6s ease both;
+}
+
+.moveToLeft-enter {
+	-webkit-animation: moveFromRight .6s ease both;
+	animation: moveFromRight .6s ease both;
+}
+
+/* 1 / Move to right/ from left */
+.moveToRight-leave {
+	-webkit-animation: moveToRight .6s ease both;
+	animation: moveToRight .6s ease both;
+}
+
+.moveToRight-enter {
+	-webkit-animation: moveFromLeft .6s ease both;
+	animation: moveFromLeft .6s ease both;
+}
+
+/* 2 / Move to top/ from bottom */
+.moveToTop-leave {
+	-webkit-animation: moveToTop .6s ease both;
+	animation: moveToTop .6s ease both;
+}
+
+.moveToTop-enter {
+	-webkit-animation: moveFromBottom .6s ease both;
+	animation: moveFromBottom .6s ease both;
+}
+
+/* 3 / Move to bottom/ from top */
+.moveToBottom-leave {
+	-webkit-animation: moveToBottom .6s ease both;
+	animation: moveToBottom .6s ease both;
+}
+
+.moveToBottom-enter {
+	-webkit-animation: moveFromTop .6s ease both;
+	animation: moveFromTop .6s ease both;
+}
+
+/* 4 / Fade / from right */
+.fadeFromRight-leave {
+	-webkit-animation: fade .7s ease both;
+	animation: fade .7s ease both;
+}
+
+.fadeFromRight-enter {
+	-webkit-animation: moveFromRight .6s ease both;
+	animation: moveFromRight .6s ease both;
+	z-index: 999;
+}
+
+/* 5 / Fade / from left */
+.fadeFromLeft-leave {
+	-webkit-animation: fade .7s ease both;
+	animation: fade .7s ease both;
+}
+
+.fadeFromLeft-enter {
+	-webkit-animation: moveFromLeft .6s ease both;
+	animation: moveFromLeft .6s ease both;
+	z-index: 999;
+}
+
+/* 6 / Fade / from bottom */
+
+.fadeFromBottom-leave {
+	-webkit-animation: fade .7s ease both;
+	animation: fade .7s ease both;
+}
+
+.fadeFromBottom-enter {
+	-webkit-animation: moveFromBottom .6s ease both;
+	animation: moveFromBottom .6s ease both;
+	z-index: 999;
+}
+
+/* 7 / Fade / from top */
+.fadeFromTop-leave {
+	-webkit-animation: fade .7s ease both;
+	animation: fade .7s ease both;
+} 
+
+.fadeFromTop-enter {
+	-webkit-animation: moveFromTop .6s ease both;
+	animation: moveFromTop .6s ease both;
+	z-index: 999;
+}
+
+/* 8 / Fade left / fade right */
+.moveToLeftFade-leave {
+	-webkit-animation: moveToLeftFade .7s ease both;
+	animation: moveToLeftFade .7s ease both;
+}
+
+.moveToLeftFade-enter {
+	-webkit-animation: moveFromRightFade .7s ease both;
+	animation: moveFromRightFade .7s ease both;
+}
+
+/* 9 / Fade right / fade left */
+.moveToRightFade-leave {
+	-webkit-animation: moveToRightFade .7s ease both;
+	animation: moveToRightFade .7s ease both;
+}
+
+.moveToRightFade-enter {
+	-webkit-animation: moveFromLeftFade .7s ease both;
+	animation: moveFromLeftFade .7s ease both;
+}
+
+/* 10 / Fade top / fade bottom */
+.moveToTopFade-leave {
+	-webkit-animation: moveToTopFade .7s ease both;
+	animation: moveToTopFade .7s ease both;
+}
+
+.moveToTopFade-enter {
+	-webkit-animation: moveFromBottomFade .7s ease both;
+	animation: moveFromBottomFade .7s ease both;
+}
+
+/* 11 / Fade bottom / fade top */
+.moveToBottomFade-leave {
+	-webkit-animation: moveToBottomFade .7s ease both;
+	animation: moveToBottomFade .7s ease both;
+}
+.moveToBottomFade-enter {
+	-webkit-animation: moveFromTopFade .7s ease both;
+	animation: moveFromTopFade .7s ease both;
+} 
+
+/* 12 / Different easing / from right */
+.moveToLeftEasing-leave {
+	-webkit-animation: moveToLeft .7s ease-in-out both;
+	animation: moveToLeft .7s ease-in-out both;
+	z-index: 999;
+}	
+
+.moveToLeftEasing-enter {
+	-webkit-animation: moveFromRight .6s ease both;
+	animation: moveFromRight .6s ease both;
+}
+
+/* 13 / Different easing / from left */
+.moveToRightEasing-leave {
+	-webkit-animation: moveToRight .7s ease-in-out both;
+	animation: moveToRight .7s ease-in-out both;
+	z-index: 999;
+}
+
+.moveToRightEasing-enter {
+	-webkit-animation: moveFromLeft .6s ease both;
+	animation: moveFromLeft .6s ease both;
+}
+
+/* 14 / Different easing / from bottom */
+.moveToTopEasing-leave {
+	-webkit-animation: moveToTop .7s ease-in-out both;
+	animation: moveToTop .7s ease-in-out both;
+	z-index: 999;
+}
+
+.moveToTopEasing-enter {
+	-webkit-animation: moveFromBottom .6s ease both;
+	animation: moveFromBottom .6s ease both;
+}
+
+/* 15 / Different easing / from top */
+.moveToBottomEasing-leave {
+	-webkit-animation: moveToBottom .7s ease-in-out both;
+	animation: moveToBottom .7s ease-in-out both;
+	z-index: 999;
+}
+
+.moveToBottomEasing-enter {
+	-webkit-animation: moveFromTop .6s ease both;
+	animation: moveFromTop .6s ease both;
+}
+
+/* 16 / Scale down / from right */
+.scaleDownFromRight-leave {
+	-webkit-animation: scaleDown .7s ease both;
+	animation: scaleDown .7s ease both;
+}
+
+.scaleDownFromRight-enter {
+	-webkit-animation: moveFromRight .6s ease both;
+	animation: moveFromRight .6s ease both;
+	z-index: 999;
+}
+
+/* 17 / Scale down / from left */
+
+.scaleDownFromLeft-leave {
+	-webkit-animation: scaleDown .7s ease both;
+	animation: scaleDown .7s ease both;
+}
+
+.scaleDownFromLeft-enter {
+	-webkit-animation: moveFromLeft .6s ease both;
+	animation: moveFromLeft .6s ease both;
+	z-index: 999;
+}
+
+/* 18 / Scale down / from bottom */
+
+.scaleDownFromBottom-leave {
+	-webkit-animation: scaleDown .7s ease both;
+	animation: scaleDown .7s ease both;
+}
+
+.scaleDownFromBottom-enter {
+	-webkit-animation: moveFromBottom .6s ease both;
+	animation: moveFromBottom .6s ease both;
+	z-index: 999;
+}
+
+/* 19 / Scale down / from top */
+
+.scaleDownFromTop-leave {
+	-webkit-animation: scaleDown .7s ease both;
+	animation: scaleDown .7s ease both;
+}
+
+.scaleDownFromTop-enter {
+	-webkit-animation: moveFromTop .6s ease both;
+	animation: moveFromTop .6s ease both;
+	z-index: 999;
+}
+
+/* 20 / Scale down / scale down */
+
+.scaleDownDown-leave {
+	-webkit-animation: scaleDown .7s ease both;
+	animation: scaleDown .7s ease both;
+}
+
+.scaleDownDown-enter {
+	-webkit-animation: scaleUpDown .5s ease both;
+	animation: scaleUpDown .5s ease both;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+}
+
+/* 21 / Scale up / scale up */
+.scaleUpUp-leave {
+	-webkit-animation: scaleDownUp .5s ease both;
+	animation: scaleDownUp .5s ease both;
+}
+
+.scaleUpUp-enter {
+	-webkit-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+}
+
+/* 22 / Move to left / scale up */
+
+.scaleLeftUp-leave {
+	-webkit-animation: moveToLeft .6s ease both;
+	animation: moveToLeft .6s ease both;
+	z-index: 999;
+}
+
+.scaleLeftUp-enter {
+	-webkit-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
+}
+
+/* 23 / Move to right / scale up */
+
+.scaleRightUp-leave {
+	-webkit-animation: moveToRight .6s ease both;
+	animation: moveToRight .6s ease both;
+	z-index: 999;
+}
+
+.scaleRightUp-enter {
+	-webkit-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
+}
+
+/* 24 / Move to top / scale up */
+
+.scaleTopUp-leave {
+	-webkit-animation: moveToTop .6s ease both;
+	animation: moveToTop .6s ease both;
+	z-index: 999;
+}
+
+.scaleTopUp-enter {
+	-webkit-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
+}
+
+/* 25 / Move to bottom / scale up */
+
+.scaleBottomUp-leave {
+	-webkit-animation: moveToBottom .6s ease both;
+	animation: moveToBottom .6s ease both;
+	z-index: 999;
+}
+
+.scaleBottomUp-enter {
+	-webkit-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
+}
+
+/* 26 / Scale down / scale up */
+
+.scaleDownUp-leave {
+	-webkit-animation: scaleDownCenter .4s ease-in both;
+	animation: scaleDownCenter .4s ease-in both;
+}
+
+.scaleDownUp-enter {
+	-webkit-animation: scaleUpCenter .4s ease-out both;
+	animation: scaleUpCenter .4s ease-out both;
+	-webkit-animation-delay: .4s;
+	animation-delay: .4s;
+}
+
+/* 27 / Glue left / from right */
+
+.glueLeftFromRight-leave {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateRightSideFirst .8s both ease-in;
+	animation: rotateRightSideFirst .8s both ease-in;
+}
+
+.glueLeftFromRight-enter {
+	-webkit-animation: moveFromRight .6s ease both;
+	animation: moveFromRight .6s ease both;
+	-webkit-animation-delay: .2s;
+  	animation-delay: .2s;
+  	z-index: 999;
+}
+
+/* 28 / Glue right / from left */
+.glueRightFromLeft-leave {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateLeftSideFirst .8s both ease-in;
+	animation: rotateLeftSideFirst .8s both ease-in;
+}
+
+.glueRightFromLeft-enter {
+	-webkit-animation: moveFromLeft .6s ease both;
+	animation: moveFromLeft .6s ease both;
+	-webkit-animation-delay: .2s;
+  	animation-delay: .2s;
+  	z-index: 999;
+}
+
+/* 29 / Glue bottom / from top */
+
+.glueBottomFromTop-leave {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateTopSideFirst .8s both ease;
+	animation: rotateTopSideFirst .8s both ease;
+}
+
+
+.glueBottomFromTop-enter {
+	-webkit-animation: moveFromTop .6s ease both;
+	animation: moveFromTop .6s ease both;
+	-webkit-animation-delay: .2s;
+  	animation-delay: .2s;
+  	z-index: 999;
+}
+
+/* 30 / Glue top / from bottom */
+
+.glueTopFromBottom-leave {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateBottomSideFirst .8s both ease-in;
+	animation: rotateBottomSideFirst .8s both ease-in;
+}
+
+
+.glueTopFromBottom-enter {
+	-webkit-animation: moveFromBottom .6s ease both;
+	animation: moveFromBottom .6s ease both;
+	-webkit-animation-delay: .2s;
+  	animation-delay: .2s;
+  	z-index: 999;
+}
+
+/* 31 / Flip right */
+.flipRight-leave {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipOutRight .5s both ease-in;
+	animation: flipOutRight .5s both ease-in;
+}
+
+.flipRight-enter {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipInLeft .5s both ease-out;
+	animation: flipInLeft .5s both ease-out;
+	-webkit-animation-delay: .5s;
+  	animation-delay: .5s;
+}
+
+/* 32 / Flip left */
+.flipLeft-leave {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipOutLeft .5s both ease-in;
+	animation: flipOutLeft .5s both ease-in;
+
+}
+
+.flipLeft-enter {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipInRight .5s both ease-out;
+	animation: flipInRight .5s both ease-out;
+	-webkit-animation-delay: .5s;
+  	animation-delay: .5s;
+}
+
+/* 33 / Flip top */ 
+
+.flipTop-leave {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipOutTop .5s both ease-in;
+	animation: flipOutTop .5s both ease-in;
+}
+
+.flipTop-enter {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipInBottom .5s both ease-out;
+	animation: flipInBottom .5s both ease-out;
+	-webkit-animation-delay: .5s;
+	animation-delay: .5s;
+}
+
+/* 34 / Flip bottom */ 
+.flipBottom-leave {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipOutBottom .5s both ease-in;
+	animation: flipOutBottom .5s both ease-in;
+}
+.flipBottom-enter {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipInTop .5s both ease-out;
+	animation: flipInTop .5s both ease-out;
+	-webkit-animation-delay: .5s;
+	animation-delay: .5s;
+}
+
+/* 35 / Fall */
+.fall-leave {
+	-webkit-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+	-webkit-animation: rotateFall 1s both ease-in;
+	animation: rotateFall 1s both ease-in;
+	z-index: 999;
+}
+
+.fall-enter {
+	-webkit-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
+}
+
+/* 36 / Newspaper */
+.newspaper-leave {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: rotateOutNewspaper .5s both ease-in;
+	animation: rotateOutNewspaper .5s both ease-in;
+}
+
+.newspaper-enter {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: rotateInNewspaper .5s both ease-out;
+	animation: rotateInNewspaper .5s both ease-out;
+	-webkit-animation-delay: .5s;
+	animation-delay: .5s;
+}
+
+/* 37  Push left / from right */
+
+.pushLeftRight-leave {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotatePushLeft .8s both ease;
+	animation: rotatePushLeft .8s both ease;
+} 
+
+.pushLeftRight-enter {
+	-webkit-animation: moveFromRight .6s ease both;
+	animation: moveFromRight .6s ease both;
+	z-index: 999;
+}
+
+/* 38 / Push right / from left */
+.pushRightLeft-leave {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotatePushRight .8s both ease;
+	animation: rotatePushRight .8s both ease;
+}
+
+.pushRightLeft-enter {
+	-webkit-animation: moveFromLeft .6s ease both;
+	animation: moveFromLeft .6s ease both;
+	z-index: 999;
+}
+
+/* 39 / Push top / from bottom */
+.pushTopBottom-leave {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotatePushTop .8s both ease;
+	animation: rotatePushTop .8s both ease;
+}
+
+.pushTopBottom-enter {
+	-webkit-animation: moveFromBottom .6s ease both;
+	animation: moveFromBottom .6s ease both;
+	z-index: 999;
+}
+
+/* 40 / Push bottom / from top */
+.pushBottomTop-leave {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotatePushBottom .8s both ease;
+	animation: rotatePushBottom .8s both ease;
+}
+
+.pushBottomTop-enter {
+	-webkit-animation: moveFromTop .6s ease both;
+	animation: moveFromTop .6s ease both;
+	z-index: 999;
+}
+
+/* 41 / Push left / pull right */
+.pullLeftRight-leave {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotatePushLeft .8s both ease;
+	animation: rotatePushLeft .8s both ease;
+}
+
+.pullLeftRight-enter {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotatePullRight .5s both ease;
+	animation: rotatePullRight .5s both ease;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+	z-index: 999;
+}
+
+/* 42 / Push right / pull left */
+.pullRightLeft-leave {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotatePushRight .8s both ease;
+	animation: rotatePushRight .8s both ease;
+}
+
+.pullRightLeft-enter {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotatePullLeft .5s both ease;
+	animation: rotatePullLeft .5s both ease;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+	z-index: 999;
+}
+
+/* 43 / Push top / pull bottom */
+.pullTopBottom-leave {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotatePushTop .8s both ease;
+	animation: rotatePushTop .8s both ease;
+}
+
+.pullTopBottom-enter {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotatePullBottom .5s both ease;
+	animation: rotatePullBottom .5s both ease;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+	z-index: 999;
+}
+
+/* 44 / Push bottom / pull top */
+.pullBottomTop-leave {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotatePushBottom .8s both ease;
+	animation: rotatePushBottom .8s both ease;
+}
+
+.pullBottomTop-enter {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotatePullTop .5s both ease;
+	animation: rotatePullTop .5s both ease;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+	z-index: 999;
+}
+
+/* 45 / Fold left / from right */
+.foldLeftRight-leave {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateFoldLeft .7s both ease;
+	animation: rotateFoldLeft .7s both ease;
+}
+
+.foldLeftRight-enter {
+	-webkit-animation: moveFromRightFade .7s ease both;
+	animation: moveFromRightFade .7s ease both;
+}
+
+/* 46 / Fold right / from left */
+
+.foldRightLeft-leave {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateFoldRight .7s both ease;
+	animation: rotateFoldRight .7s both ease;
+}
+
+.foldRightLeft-enter {
+	-webkit-animation: moveFromLeftFade .7s ease both;
+	animation: moveFromLeftFade .7s ease both;
+}
+
+/* 47 / Fold top / from bottom */
+.foldTopBottom-leave {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateFoldTop .7s both ease;
+	animation: rotateFoldTop .7s both ease;
+}
+
+.foldTopBottom-enter {
+	-webkit-animation: moveFromBottomFade .7s ease both;
+	animation: moveFromBottomFade .7s ease both;
+}
+
+/* 48 / Fold bottom / from top */
+.foldBotoomTop-leave {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateFoldBottom .7s both ease;
+	animation: rotateFoldBottom .7s both ease;
+}
+.foldBotoomTop-enter {
+	-webkit-animation: moveFromTopFade .7s ease both;
+	animation: moveFromTopFade .7s ease both;
+}
+
+/* 49 / Move to right / unfold left */
+.unfoldRightLeft-leave {
+	-webkit-animation: moveToRightFade .7s ease both;
+	animation: moveToRightFade .7s ease both;
+}
+
+.unfoldRightLeft-enter {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateUnfoldLeft .7s both ease;
+	animation: rotateUnfoldLeft .7s both ease;
+}
+
+/* 50 / Move to left / unfold right */
+.unfoldLeftRight-leave {
+	-webkit-animation: moveToLeftFade .7s ease both;
+	animation: moveToLeftFade .7s ease both;
+}
+
+.unfoldLeftRight-enter {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateUnfoldRight .7s both ease;
+	animation: rotateUnfoldRight .7s both ease;
+}
+
+/* 51 / Move to bottom / unfold top */
+.unfoldBottomTop-leave {
+	-webkit-animation: moveToBottomFade .7s ease both;
+	animation: moveToBottomFade .7s ease both;
+}
+
+.unfoldBottomTop-enter {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateUnfoldTop .7s both ease;
+	animation: rotateUnfoldTop .7s both ease;	
+}
+
+/* 52 / Move to top / unfold bottom */
+.unfoldTopBottom-leave {
+	-webkit-animation: moveToTopFade .7s ease both;
+	animation: moveToTopFade .7s ease both;
+}
+
+.unfoldTopBottom-enter {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateUnfoldBottom .7s both ease;
+	animation: rotateUnfoldBottom .7s both ease;
+}
+
+/* 53 / Room to left */
+.roomLeft-leave {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateRoomLeftOut .8s both ease;
+	animation: rotateRoomLeftOut .8s both ease;
+	z-index: 999;
+}
+
+.roomLeft-enter {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateRoomLeftIn .8s both ease;
+	animation: rotateRoomLeftIn .8s both ease;
+}
+
+/* 54 / Room right */
+.roomRight-leave {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateRoomRightOut .8s both ease;
+	animation: rotateRoomRightOut .8s both ease;
+	z-index: 999;
+}
+
+.roomRight-enter {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateRoomRightIn .8s both ease;
+	animation: rotateRoomRightIn .8s both ease;
+}
+
+/* 55 / Room to top*/
+.roomTop-leave {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateRoomTopOut .8s both ease;
+	animation: rotateRoomTopOut .8s both ease;
+	z-index: 999;
+}
+.roomTop-enter {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateRoomTopIn .8s both ease;
+	animation: rotateRoomTopIn .8s both ease;
+}
+
+/* 56 / Room to bottom */
+.roomBottom-leave {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateRoomBottomOut .8s both ease;
+	animation: rotateRoomBottomOut .8s both ease;
+	z-index: 999;
+}
+.roomBottom-enter {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateRoomBottomIn .8s both ease;
+	animation: rotateRoomBottomIn .8s both ease;
+}
+
+/* 57 / Cube to left */
+.cubeToLeft-leave {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateCubeLeftOut .6s both ease-in;
+	animation: rotateCubeLeftOut .6s both ease-in;
+}
+
+.cubeToLeft-enter {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateCubeLeftIn .6s both ease-in;
+	animation: rotateCubeLeftIn .6s both ease-in;
+	z-index: 999;
+}
+
+/* 58 / Cube to right */
+.cubeToRight-leave {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateCubeRightOut .6s both ease-in;
+	animation: rotateCubeRightOut .6s both ease-in;
+}
+
+.cubeToRight-enter {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateCubeRightIn .6s both ease-in;
+	animation: rotateCubeRightIn .6s both ease-in;
+	z-index: 999;
+}
+
+/* 59 / Cube to top */ 
+.cubeToTop-leave {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateCubeTopOut .6s both ease-in;
+	animation: rotateCubeTopOut .6s both ease-in;
+}
+
+.cubeToTop-enter {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateCubeTopIn .6s both ease-in;
+	animation: rotateCubeTopIn .6s both ease-in;
+	z-index: 999;	
+}
+
+/* 60 / Cube to bottom */ 
+.cubeToBottom-leave {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateCubeBottomOut .6s both ease-in;
+	animation: rotateCubeBottomOut .6s both ease-in;
+}
+
+.cubeToBottom-enter {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateCubeBottomIn .6s both ease-in;
+	animation: rotateCubeBottomIn .6s both ease-in;
+	z-index: 999;
+}
+
+/* 61 / Carousel to left */
+.carouselToLeft-leave {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateCarouselLeftOut .8s both ease;
+	animation: rotateCarouselLeftOut .8s both ease;
+}
+
+.carouselToLeft-enter {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateCarouselLeftIn .8s both ease;
+	animation: rotateCarouselLeftIn .8s both ease;
+	z-index: 999;
+}
+
+/* 62 / Carousel to right */
+.carouselToRight-leave {
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-animation: rotateCarouselRightOut .8s both ease;
+	animation: rotateCarouselRightOut .8s both ease;
+}
+.carouselToRight-enter {
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	-webkit-animation: rotateCarouselRightIn .8s both ease;
+	animation: rotateCarouselRightIn .8s both ease;
+	z-index: 999;
+}
+
+/* 63 / Carousel to top */
+.carouselToTop-leave {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateCarouselTopOut .8s both ease;
+	animation: rotateCarouselTopOut .8s both ease;
+}
+.carouselToTop-enter {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateCarouselTopIn .8s both ease;
+	animation: rotateCarouselTopIn .8s both ease;
+	z-index: 999;
+}
+
+/* 64 / Carousel to bottom */
+.carouselToBottom-leave {
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-animation: rotateCarouselBottomOut .8s both ease;
+	animation: rotateCarouselBottomOut .8s both ease;
+}
+.carouselToBottom-enter {
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-animation: rotateCarouselBottomIn .8s both ease;
+	animation: rotateCarouselBottomIn .8s both ease;
+	z-index: 999;
+}
+
+/* 65 / Sides */
+.sides-leave {
+	-webkit-transform-origin: -50% 50%;
+	transform-origin: -50% 50%;
+	-webkit-animation: rotateSidesOut .5s both ease-in;
+	animation: rotateSidesOut .5s both ease-in;
+}
+
+.sides-enter {
+	-webkit-transform-origin: 150% 50%;
+	transform-origin: 150% 50%;
+	-webkit-animation: rotateSidesIn .5s both ease-out;
+	animation: rotateSidesIn .5s both ease-out;
+	-webkit-animation-delay: .2s;
+	animation-delay: .2s;
+}
+
+/* 66 / Slide */
+.slide-leave {
+	-webkit-animation: rotateSlideOut 1s both ease;
+	animation: rotateSlideOut 1s both ease;
+}
+
+.slide-enter {
+	-webkit-animation: rotateSlideIn 1s both ease;
+	animation: rotateSlideIn 1s both ease;	
+}
+
+/* 67 / Paper to right */
+.paperRight-leave {
+	-webkit-animation: fade 0.6s ease both;
+	animation: fade 0.6s ease both;
+}
+
+.paperRight-enter {
+	-webkit-animation: paperRight 0.6s both ease-in-out;
+	animation: paperRight 0.6s both ease-in-out;
+	z-index: 999;
+}
+
+/* 68 / Paper to left */
+.paperLeft-leave {
+	-webkit-animation: fade 0.6s ease both;
+	animation: fade 0.6s ease both;
+}
+
+.paperLeft-enter {
+	-webkit-animation: paperLeft 0.6s both ease-in-out;
+	animation: paperLeft 0.6s both ease-in-out;
+	z-index: 999;
+}
+
+/* 69 / Paper middle */
+.paperMiddle-leave {
+	-webkit-animation: fade 1s ease both;
+	animation: fade 1s ease both;
+}
+
+.paperMiddle-enter {
+	-webkit-animation: paperMiddle 0.4s both ease-in-out;
+	animation: paperMiddle 0.4s both ease-in-out;
+	z-index: 999;
+}
+
+/* 70 / Paper bottom right */
+.paperBottomRight-leave {
+	-webkit-animation: fade 1s ease both;
+	animation: fade 1s ease both;
+}
+
+.paperBottomRight-enter {
+	-webkit-animation: paperBottomRight 0.6s both ease-in-out;
+	animation: paperBottomRight 0.6s both ease-in-out;
+	z-index: 999;
+}
+
+/* 71 / Paper bottom left */
+.paperBottomLeft-leave {
+	-webkit-animation: fade 1s ease both;
+	animation: fade 1s ease both;
+}
+
+.paperBottomLeft-enter {
+	-webkit-animation: paperBottomLeft 0.6s both ease-in-out;
+	animation: paperBottomLeft 0.6s both ease-in-out;
+	z-index: 999;
+}
+
+/* 72 / Paper top left */
+.paperTopLeft-leave {
+	-webkit-animation: fade 1s ease both;
+	animation: fade 1s ease both;
+}
+
+.paperTopLeft-enter {
+	-webkit-animation: paperTopLeft 0.6s both ease-in-out;
+	animation: paperTopLeft 0.6s both ease-in-out;
+	z-index: 999;
+}
+
+/* 73 / Paper top right */
+.paperTopRight-leave {
+	-webkit-animation: fade 1s ease both;
+	animation: fade 1s ease both;
+}
+
+.paperTopRight-enter {
+	-webkit-animation: paperTopRight 0.6s both ease-in-out;
+	animation: paperTopRight 0.6s both ease-in-out;
+	z-index: 999;
+}
+
+/* 74 / brick right */
+.brickRight-leave {
+	-webkit-animation: brickRight 0.5s both ease-in-out;
+	animation: brickRight 0.5s both ease-in-out;
+	z-index: 999;
+}
+
+.brickRight-enter {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipInBottom .5s both ease-out;
+	animation: flipInBottom .5s both ease-out;
+	-webkit-animation-delay: .5s;
+	animation-delay: .5s;
+}
+
+/* 75 / brick left */
+.brickLeft-leave {
+	-webkit-animation: brickLeft 0.5s both ease-in-out;
+	animation: brickLeft 0.5s both ease-in-out;
+	z-index: 999;
+}
+
+.brickLeft-enter {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: flipInBottom .5s both ease-out;
+	animation: flipInBottom .5s both ease-out;
+	-webkit-animation-delay: .5s;
+	animation-delay: .5s;
+}
+
+/* 76 / bounce vertical */
+.bounceVertical-leave {
+	-webkit-animation: bounceOut 0.1s both linear;
+	animation: bounceOut 0.1s both linear;
+}
+
+.bounceVertical-enter {
+	-webkit-animation: bounceVertical 0.5s both linear;
+	animation: bounceVertical 0.5s both linear;
+	
+}
+
+/* 77 / bounce horizontal */
+.bounceHorizontal-leave {
+	-webkit-animation: bounceOut 0.1s both linear;
+	animation: bounceOut 0.1s both linear;
+}
+
+.bounceHorizontal-enter {
+	-webkit-animation: bounceHorizontal 0.5s both linear;
+	animation: bounceHorizontal 0.5s both linear;
+}
+
+
+/* 78 / rotate right */
+.rotateRight-enter {
+	-webkit-animation: rotateRightIn 1s both ease-out;
+	animation: rotateRightIn 1s both ease-out;
+	z-index: 999;
+}
+.rotateRight-leave {
+	-webkit-animation: rotateRightOut 0.8s ease-out both;
+	animation: rotateRightOut 0.8s  ease-out both;
+}
+
+/* 79 / rotate left */
+.rotateLeft-enter {
+	-webkit-animation: rotateLeftIn 1s both ease-out;
+	animation: rotateLeftIn 1s both ease-out;
+	z-index: 999;
+}
+.rotateLeft-leave {
+	-webkit-animation: rotateLeftOut 0.8s ease-out both;
+	animation: rotateLeftOut 0.8s  ease-out both;
+}
+
+
+
+/* 80 / Backface left */
+.backfaceLeft-enter {
+	-webkit-animation: backfaceLeftIn 1s both linear;
+	animation: backfaceLeftIn 1s both linear;
+}
+.backfaceLeft-leave {
+	-webkit-animation: backfaceLeftOut 1s both linear;
+	animation: backfaceLeftOut 1s both linear;
+}
+
+
+/* 81 / Backface right */
+.backfaceRight-enter {
+	-webkit-animation: backfaceRightIn 1s both linear;
+	animation: backfaceRightIn 1s both linear;
+}
+.backfaceRight-leave {
+	-webkit-animation: backfaceRightOut 1s both linear;
+	animation: backfaceRightOut 1s both linear;
+}
+
+/* 82 / Backface top */
+.backfaceTop-enter {
+	-webkit-animation: backfaceTopIn 1s both linear;
+	animation: backfaceTopIn 1s both linear;
+}
+.backfaceTop-leave {
+	-webkit-animation: backfaceTopOut 1s both linear;
+	animation: backfaceTopOut 1s both linear;
+}
+
+/* 83 / Backface bottom */
+.backfaceBottom-enter {
+	-webkit-animation: backfaceBottomIn 1s both linear;
+	animation: backfaceBottomIn 1s both linear;
+}
+.backfaceBottom-leave {
+	-webkit-animation: backfaceBottomOut 1s both linear;
+	animation: backfaceBottomOut 1s both linear;
+}
+
+
+/* 84 / Tv */
+.tv-enter {
+	-webkit-animation: tvIn 1s both linear;
+	animation: tvIn 1s both linear;
+}
+
+.tv-leave {
+	-webkit-animation:  tvOut 1s both linear;
+	animation: tvOut 1s both linear;
+}
+
+
+/*Ie 10/11 */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .moveToLeft-leave, .moveToRight-leave, 
+  .moveToTop-leave, .moveToBottom-leave {
+  	animation-duration: .7s;
+  }
+  .moveToLeftFade-leave, .moveToRightFade-leave, 
+  .moveToTopFade-leave,  .moveToBottomFade-leave {
+  	animation-duration: .723s;
+  }
+  
+  .fadeFromRight-leave, .fadeFromLeft-leave, .fadeFromBottom-leave, 
+  .fadeFromTop-leave,   .foldLeftRight-leave, .foldRightLeft-leave, 
+  .foldTopBottom-leave,  .foldBotoomTop-leave, .unfoldRightLeft-leave, 
+  .unfoldLeftRight-leave, .unfoldBottomTop-leave, .unfoldTopBottom-leave {
+  	animation-duration: .725s;
+  }
+  .roomRight-leave, .roomLeft-leave,
+  .roomTop-leave, .roomBottom-leave {
+  	animation-duration: .822s;
+  }
+  .cubeToLeft-enter { animation: rotateCubeLeftInIe .6s both ease-in;}	
+  .cubeToRight-enter { animation: rotateCubeRightInIe .6s both ease-in;}
+  .cubeToTop-enter { animation: rotateCubeTopInIe .6s both ease-in;}
+  .cubeToBottom-enter { animation: rotateCubeBottomInIe .6s both ease-in;}
+  .paperLeft-enter {animation: paperLeftIe .55s both ease-in;}
+  .paperMiddle-enter {animation: paperMiddleIe 0.4s both ease;}
+}
+
+/*Ie 10/11 keyframes */
+@keyframes rotateCubeLeftInIe {
+  0% { opacity: .3; transform: translateX(100%) rotateY(90deg); transform: translateX(100%) rotateY(90deg); left:100%; }
+  50% { animation-timing-function: ease-out;  transform: translateX(50%) translateZ(-200px) rotateY(45deg); left:50%;}
+  100% {left:0;}
+}
+@keyframes rotateCubeRightInIe {
+  0% { opacity: .3; transform: translateX(-100%) rotateY(-90deg); transform: translateX(-100%) rotateY(-90deg); left:-100%;}
+  50% { animation-timing-function: ease-out; transform: translateX(-50%) translateZ(-200px) rotateY(-45deg); left:-50%;}
+  100% {left:0;}
+}
+@keyframes rotateCubeTopInIe {
+  0% { opacity: .3; transform: translateY(100%) rotateX(-90deg); top:100%;}
+  50% { animation-timing-function: ease-out; transform: translateY(50%) translateZ(-200px) rotateX(-45deg);top:50%;}
+  100% {top:0}
+}
+@keyframes rotateCubeBottomInIe {
+  0% { opacity: .3; transform: translateY(-100%) rotateX(90deg); top:-100%;}
+  50% { animation-timing-function: ease-out; transform: translateY(-50%) translateZ(-200px) rotateX(45deg); top:-50%;}
+  100% {top:0;}
+}
+
+@keyframes paperLeftIe {
+  0%    { transform: scaleX(0) skewX(40deg); transform-origin: right; left: 125%;}
+  100%  { transform: scaleX(1) skewX(0deg); transform-origin: right;}
+ }
+
+ @keyframes paperMiddleIe {
+  0%    { transform: scaleX(0) skewX(40deg); transform-origin: bottom; left: 100%; width: 150%;}
+  100%  { transform: scaleX(1) skewX(0deg); transform-origin: bottom; }
+ }
