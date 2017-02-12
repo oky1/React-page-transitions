@@ -8,4 +8,4 @@ npm i && npm start
 
 ![](https://github.com/oky1/React-page-transitions/blob/master/Transitions.gif)
 
-Sorry, but 3d transforms not supported ie (backfaceLeft, backfaceRight ...)
+Sorry, but preserve-3d doesn't work in IE10/11 (backfaceLeft, backfaceRight ...)
